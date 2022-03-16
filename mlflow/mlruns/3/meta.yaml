@@ -1,0 +1,4 @@
+artifact_location: file:../new_dnilm/mlflow/mlruns/3
+experiment_id: '3'
+lifecycle_stage: active
+name: microwave

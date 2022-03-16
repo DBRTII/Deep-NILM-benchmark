@@ -1,0 +1,6 @@
+mlflow
+cloudpickle==2.0.0
+deep-nilmtk==0.1
+nilm-metadata==0.2.4
+nilmtk==0.4.0.dev1
+torch==1.10.2

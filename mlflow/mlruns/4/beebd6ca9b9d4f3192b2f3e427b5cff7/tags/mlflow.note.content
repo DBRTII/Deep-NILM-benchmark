@@ -1,0 +1,7 @@
+
+
+                    Information about the data used for this experiment:
+                    Training: {"refit": {"path": "../data/ukdale.h5", "buildings": {"1": {"start_time": "2015-01-04", "end_time": "2015-03-30"}}}}
+                    Testing: {"refit": {"path": "../data/ukdale.h5", "buildings": {"1": {"start_time": "2015-04-16", "end_time": "2015-05-15"}}}}
+
+                  

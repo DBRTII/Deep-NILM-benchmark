@@ -1,0 +1,51 @@
+   | Name                          | Type              | Params
+---------------------------------------------------------------------
+0  | model                         | UNETNILM          | 129 K 
+1  | model.enc_layers              | ModuleList        | 37.4 K
+2  | model.enc_layers.0            | Sequential        | 330   
+3  | model.enc_layers.0.0          | Conv1d            | 330   
+4  | model.enc_layers.0.1          | ReLU              | 0     
+5  | model.enc_layers.1            | Sequential        | 7.2 K 
+6  | model.enc_layers.1.0          | Conv1d            | 7.2 K 
+7  | model.enc_layers.1.1          | ReLU              | 0     
+8  | model.enc_layers.2            | Sequential        | 7.2 K 
+9  | model.enc_layers.2.0          | Conv1d            | 7.2 K 
+10 | model.enc_layers.2.1          | ReLU              | 0     
+11 | model.enc_layers.3            | Sequential        | 10.1 K
+12 | model.enc_layers.3.0          | Conv1d            | 10.1 K
+13 | model.enc_layers.3.1          | ReLU              | 0     
+14 | model.enc_layers.3.2          | Dropout           | 0     
+15 | model.enc_layers.4            | Sequential        | 12.6 K
+16 | model.enc_layers.4.0          | Conv1d            | 12.6 K
+17 | model.enc_layers.4.1          | ReLU              | 0     
+18 | model.dec_layers              | ModuleList        | 60.9 K
+19 | model.dec_layers.0            | Up                | 28.1 K
+20 | model.dec_layers.0.upsample   | Sequential        | 10.0 K
+21 | model.dec_layers.0.upsample.0 | ConvTranspose1d   | 10.0 K
+22 | model.dec_layers.0.upsample.1 | ReLU              | 0     
+23 | model.dec_layers.0.conv       | Sequential        | 18.0 K
+24 | model.dec_layers.0.conv.0     | Conv1d            | 18.0 K
+25 | model.dec_layers.1            | Up                | 16.6 K
+26 | model.dec_layers.1.upsample   | Sequential        | 6.0 K 
+27 | model.dec_layers.1.upsample.0 | ConvTranspose1d   | 6.0 K 
+28 | model.dec_layers.1.upsample.1 | ReLU              | 0     
+29 | model.dec_layers.1.conv       | Sequential        | 10.5 K
+30 | model.dec_layers.1.conv.0     | Conv1d            | 10.5 K
+31 | model.dec_layers.2            | Up                | 16.3 K
+32 | model.dec_layers.2.upsample   | Sequential        | 5.4 K 
+33 | model.dec_layers.2.upsample.0 | ConvTranspose1d   | 5.4 K 
+34 | model.dec_layers.2.upsample.1 | ReLU              | 0     
+35 | model.dec_layers.2.conv       | Sequential        | 10.8 K
+36 | model.dec_layers.2.conv.0     | Conv1d            | 10.8 K
+37 | model.fc                      | Sequential        | 30.8 K
+38 | model.fc.0                    | AdaptiveAvgPool1d | 0     
+39 | model.fc.1                    | Flatten           | 0     
+40 | model.fc.2                    | Linear            | 30.8 K
+41 | model.fc.3                    | ReLU              | 0     
+42 | model.fc.4                    | Dropout           | 0     
+43 | model.fc.5                    | Linear            | 65    
+---------------------------------------------------------------------
+129 K     Trainable params
+0         Non-trainable params
+129 K     Total params
+0.517     Total estimated model params size (MB)

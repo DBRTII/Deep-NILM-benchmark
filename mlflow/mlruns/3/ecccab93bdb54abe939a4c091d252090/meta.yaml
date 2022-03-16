@@ -1,0 +1,15 @@
+artifact_uri: file:../new_dnilm/mlflow/mlruns/3/ecccab93bdb54abe939a4c091d252090/artifacts
+end_time: 1646409972957
+entry_point_name: ''
+experiment_id: '3'
+lifecycle_stage: active
+name: ''
+run_id: ecccab93bdb54abe939a4c091d252090
+run_uuid: ecccab93bdb54abe939a4c091d252090
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1646401221929
+status: 3
+tags: []
+user_id: hafsa

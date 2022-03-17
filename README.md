@@ -32,4 +32,4 @@ mlflow ui
 
 
 ## Copyright and license
-Code released under the [MIT Licence](https://github.com/BHafsa/Deep-NILM-benchmark/blob/main/LICENSE).
+Code released under the [MIT Licence](https://github.com/DBRTII/Deep-NILM-benchmark/edit/main/README.md).

@@ -14,7 +14,7 @@ The previous plots shows the impact of the sequence length on the best training 
 
 ## 2. Benchmarking NILM Algorithms
 
-The best window size for each appliance is used to benchmark five of deep learning models available in toolkit using [PyTorch](https://pytorch.org/) as a deep learning framework.
+The best window size for each appliance is used to benchmark five of deep learning models available in toolkit using [PyTorch](https://pytorch.org/) as a deep learning framework. Due constaints on file sizes on Github, not all results were pushed saved in this repo. The full folder of the results can be found [here](https://drive.google.com/drive/folders/1PFOYKYoxbukxOzF7NVaDNMnPFkpjFGFb?usp=sharing).
 
 
 <p align="center">

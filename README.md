@@ -27,6 +27,7 @@ The best window size for each appliance is used to benchmark five of deep learni
 
 ```bash
 pip install mlflow==1.0.23
+cd mlflow
 mlflow ui
 ```
 
